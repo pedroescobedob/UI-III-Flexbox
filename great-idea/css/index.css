@@ -64,3 +64,209 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+nav{
+	justify-content: space-between;
+	font-size: .9em;
+	margin-top: 25px;
+}
+
+nav a{
+	display: inline-block;
+	padding: 0 30px;
+	color: grey;
+	text-decoration: none;
+}
+
+.logo{
+	display: inline-block;
+	float: right;
+}
+
+body{
+	width: 900px;
+	margin: auto;
+}
+h1{
+	font-size: 4.5em;
+	text-align: center;
+	margin-bottom: .25em;
+}
+
+h2 {
+	font-weight: solid;
+	font-size: 1.5em;
+}
+
+* {
+	text-decoration: none;
+}
+
+header{
+	min-height: 500px;
+	max-width: 100%;
+	border-bottom: 1px solid black;
+	margin: 0 auto;
+}
+
+.headerLeft{
+	margin: 0;
+	display: inline-block;
+	width: 48%;
+	height: 350px;
+}
+
+.getStarted{
+	display: block;
+	width: 100px;
+	height: 35px;
+	margin: 0 auto;
+	background: white;
+	border: 1px solid black;
+	font-size: 1.5ex;
+}
+
+.headerRight{
+	width: 50%;
+	display: inline-block;
+	background: url(.../img/logo.png);
+	background-size: 80%;
+	vertical-align: bottom;
+	height: 400px;
+	padding: 20px 0px 0px 0px;
+}
+
+.headerImage{
+	display: inline-block;
+	float: right;
+}
+
+.contentTop{
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 35px 5px;
+}
+
+.contentBottom{
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 35px 5px;
+}
+
+.twoColumns{
+	margin: 0 auto;
+	display: inline-block;
+	max-width: 49.8%;
+}
+.middle-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.threeColumns{
+	display: inline-block;
+	max-width: 33%;
+	padding: 35px 0px;
+}
+
+.contact{
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 35px 0px;
+	border-top: 1px solid black;
+}
+
+footer{
+	text-align: center;
+	padding: 0px 0px 25px 0px;
+}
+
+/*    Services   */
+
+.services-header-img{
+	padding: 30px 0;
+	margin:  auto;
+}
+
+.services-top{
+	padding: 0 0 30px 0;
+	border-bottom: 1px solid black;
+	justify-content: center;
+}
+
+.content-middle{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 30px 0;
+	justify-content: space-between;
+	
+}
+
+.content-middle .digital-design{
+	padding: 20px;
+	border: 1px solid black;
+	width: 47%;
+	margin: 20px 0;
+}
+
+.content-middle .UX-UI{
+	padding: 20px;
+	border: 1px solid black;
+	width: 47%;
+	margin: 20px 0;
+}
+
+.content-middle .digital-marketing{
+	padding: 20px;
+	border: 1px solid black;
+	width: 47%;
+	margin: 20px 0;
+}
+
+.content-middle .web-development{
+	padding: 20px;
+	border: 1px solid black;
+	width: 47%;
+	margin: 20px 0;
+}
+
+.content-middle .ios-development{
+	padding: 20px;
+	border: 1px solid black;
+	width: 47%;
+	margin: 20px 0;
+}
+
+.content-middle .android-development{
+	padding: 20px;
+	border: 1px solid black;
+	width: 47%;
+	margin: 20px 0;
+}
+
+.bottom-content{
+	border-top: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom-content .some-facts{
+	width: 50%;
+	padding: 30px 0;
+	height: 20%;
+}
+
+.bottom-content .bullets{
+	padding: 20px 0;
+	width: 46%;
+	height: 20%;
+	float: left;
+	justify-content: space-between;
+
+}
+
+img.services-info-img{
+	width: 50%;
+	padding: 30px 0;
+}
