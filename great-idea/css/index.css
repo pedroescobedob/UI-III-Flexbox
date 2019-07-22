@@ -67,7 +67,10 @@ h1, h2, h3, h4, h5 {
 nav{
 	justify-content: space-between;
 	font-size: .9em;
-	margin-top: 25px;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 nav a{
@@ -75,6 +78,10 @@ nav a{
 	padding: 0 30px;
 	color: grey;
 	text-decoration: none;
+}
+
+nav .navigation-links{
+	align-items: flex-end;
 }
 
 .logo{
@@ -102,7 +109,7 @@ h2 {
 }
 
 header{
-	min-height: 500px;
+	
 	max-width: 100%;
 	border-bottom: 1px solid black;
 	margin: 0 auto;
@@ -112,7 +119,11 @@ header{
 	margin: 0;
 	display: inline-block;
 	width: 48%;
-	height: 350px;
+	height: 400px;
+	padding: 60px;
+	align-content: center;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .getStarted{
@@ -132,7 +143,8 @@ header{
 	background-size: 80%;
 	vertical-align: bottom;
 	height: 400px;
-	padding: 20px 0px 0px 0px;
+	justify-content: space-between;
+	align-content: center;
 }
 
 .headerImage{
@@ -200,6 +212,17 @@ footer{
 	flex-wrap: wrap;
 	padding: 30px 0;
 	justify-content: space-between;
+	background-color: white;
+}
+
+.box-button{
+	display: block;
+	width: 150px;
+	height: 35px;
+	margin: 20px 0 auto;
+	background: white;
+	border: 1px solid black;
+	font-size: 1.5ex;
 	
 }
 
@@ -208,6 +231,7 @@ footer{
 	border: 1px solid black;
 	width: 47%;
 	margin: 20px 0;
+	background-color: rgb(240, 240, 240);
 }
 
 .content-middle .UX-UI{
@@ -215,6 +239,7 @@ footer{
 	border: 1px solid black;
 	width: 47%;
 	margin: 20px 0;
+	background-color:  rgb(240, 240, 240);
 }
 
 .content-middle .digital-marketing{
@@ -222,6 +247,7 @@ footer{
 	border: 1px solid black;
 	width: 47%;
 	margin: 20px 0;
+	background-color: rgb(240, 240, 240);
 }
 
 .content-middle .web-development{
@@ -229,6 +255,7 @@ footer{
 	border: 1px solid black;
 	width: 47%;
 	margin: 20px 0;
+	background-color: rgb(240, 240, 240);
 }
 
 .content-middle .ios-development{
@@ -236,6 +263,7 @@ footer{
 	border: 1px solid black;
 	width: 47%;
 	margin: 20px 0;
+	background-color: rgb(240, 240, 240);
 }
 
 .content-middle .android-development{
@@ -243,6 +271,7 @@ footer{
 	border: 1px solid black;
 	width: 47%;
 	margin: 20px 0;
+	background-color: rgb(240, 240, 240);
 }
 
 .bottom-content{
@@ -252,17 +281,14 @@ footer{
 }
 
 .bottom-content .some-facts{
-	width: 50%;
+	width: 48%;
 	padding: 30px 0;
 	height: 20%;
 }
 
-.bottom-content .bullets{
-	padding: 20px 0;
-	width: 46%;
-	height: 20%;
-	float: left;
-	justify-content: space-between;
+ul{
+	list-style: disc;
+	padding: 20px;
 }
 
 img.services-info-img{
